@@ -10,8 +10,6 @@ First of all these are my goals:
 
 How it may look like:
 
-https://github.com/tschonnie/argocd-pipeline/blob/master/argocd_objects_repos.png
-
 ![argocd structure](/argocd_objects_repos.png?raw=true "argocd structure")
 
 Procedures:

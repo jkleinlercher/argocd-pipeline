@@ -12,6 +12,8 @@ How it may look like:
 
 https://github.com/tschonnie/argocd-pipeline/blob/master/argocd_objects_repos.png
 
+![argocd structure](/argocd_objects_repos.png?raw=true "argocd structure")
+
 Procedures:
 
 1. The first step for a new k8s-Cluster would be:

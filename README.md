@@ -1,3 +1,7 @@
+Important: I recongnized this approach is based on a false understanding of the application-of-applications pattern. As long as every dev-team needs to create their application-definitions in the argocd namespace, they are also allowed to create new repository definitions where they are allowed to deploy everything to every namespace. And as long as their is no inheritance-feature of project definitions, the platform-team can't force any restrictions in project definitions. However, here is my approach, even if the implementation won't work as designed ;) 
+
+
+
 I like to describe how I think a Multi-Team k8s-Cluster could be managed with ArgoCD.
 
 Requirements:

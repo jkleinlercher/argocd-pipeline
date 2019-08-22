@@ -36,3 +36,7 @@ Questions:
 - is it possible that applications in a <team>-application.git repo reference other projects than the super application <team>-application itself? If so, each dev-team can define its own unrestricted project-definitions and use this as a project. would be a bad security issue.
 - could teams create argocd repository objects in their own <team>-application.git repo? otherwise each new repo for a new application must be merged and accepted by the platform-team.
 - is it possible to use regular expressions in the <team>-project.yaml for the source repository? otherwhise each no repo for an app must be merged and accepted by the platform-team.
+  
+Possible improvements:
+
+- the ArgoCD manifests and the application-of-applications pattern is maybe not so easy to understand at the first place for everybody. So maybe we developers should merge some custom YAMl files to the k8s-platform.git and a CI-Pipeline creates the necessary ArgoCD manifests and namespaces manifests. This CI-Pipeline can also include some checks for naming conventions and policy enforcements.

@@ -38,7 +38,7 @@ Questions:
 
 - could a dev-team create applications in a \<team\>-application.git repo if the super application \<team\>-application doesn't define the argocd namespace as a destination namespace?
 - is it possible that applications in a \<team\>-application.git repo reference other projects than the super application \<team\>-application itself? If so, each dev-team can define its own unrestricted project-definitions and use this as a project. would be a bad security issue. __That seems to be true, which is a showstopper for this concept.__
-- could teams create argocd repository objects in their own \<team\>-application.git repo? otherwise each new repo for a new application must be merged and accepted by the platform-team.
+- could teams create argocd repository objects in their own \<team\>-application.git repo? otherwise each new repo for a new application must be merged and accepted by the platform-team. __They can, but project definitions do not get inherit from the super application. So a new project definition in the \<team\>-application.git repo can contain definitions which are evil.
 - is it possible to use regular expressions in the \<team\>-project.yaml for the source repository? otherwhise each no repo for an app must be merged and accepted by the platform-team.
   
 Possible improvements:

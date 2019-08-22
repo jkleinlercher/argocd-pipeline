@@ -7,3 +7,7 @@ First of all these are my goals:
 - easy "application onboarding" of new applications but with necessary controls of compliance and policies
 - completely self-service and freedom for dev-teams, as long as no other team gets hurt
 
+
+How it may look like:
+
+https://github.com/tschonnie/argocd-pipeline/blob/master/argocd_objects_repos.png
